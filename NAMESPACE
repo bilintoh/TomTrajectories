@@ -1,6 +1,7 @@
 exportPattern("^[[:alpha:]]+")
 import(ggplot2)
 import(rgdal)
+import(geospaar)
 
 importFrom(graphics,plot)
 importFrom(raster,extent)

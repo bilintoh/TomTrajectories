@@ -1,3 +1,11 @@
+#' Title
+#'
+#' @param theRaster
+#'
+#' @return
+#' @export
+#'
+#' @examples
 FactLevel <- function(theRaster) {
 
   t <- ratify(theRaster)

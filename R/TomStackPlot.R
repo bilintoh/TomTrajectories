@@ -1,3 +1,17 @@
+#' Title
+#'
+#' @param Trajectories
+#' @param Category
+#' @param xAxisText
+#' @param yAxisText
+#' @param axisTitle
+#' @param legendText
+#' @param plotTitle
+#'
+#' @return
+#' @export
+#'
+#' @examples
 StackedTrajectories <- function(Trajectories,
                                 Category = "CATEGORY",
                                 xAxisText = 16,

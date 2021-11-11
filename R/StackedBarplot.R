@@ -1,3 +1,13 @@
+#' Title
+#'
+#' @param cattrajectory
+#' @param timePoints
+#' @param pixelSize
+#'
+#' @return
+#' @export
+#'
+#' @examples
 stackedBarData <- function(cattrajectory,timePoints,pixelSize = 1000) {
 
   dfXYZBoolean <- as.data.frame(cattrajectory$dfXYZBoolean)

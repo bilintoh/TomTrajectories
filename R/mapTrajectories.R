@@ -1,3 +1,14 @@
+#' Title
+#'
+#' @param rasList
+#' @param mapTitle
+#' @param titleFont
+#' @param legendFont
+#'
+#' @return
+#' @export
+#'
+#' @examples
 mapTrajectories <- function(rasList,mapTitle = "MAP OF CHANGE",titleFont = 1.3, legendFont = 1.3
 ) {
 

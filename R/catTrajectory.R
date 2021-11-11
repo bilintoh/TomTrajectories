@@ -1,3 +1,13 @@
+#' Title
+#'
+#' @param dfRaster
+#' @param noData
+#' @param category
+#'
+#' @return
+#' @export
+#'
+#' @examples
 catTrajectory <- function(dfRaster,noData = 0, category) {
   # Filter pixel locations with values == 0, which is NA
   pixelColumns <- length(dfRaster[1,])

@@ -1,5 +1,13 @@
 
 
+#' Title
+#'
+#' @param rasList
+#'
+#' @return
+#' @export
+#'
+#' @examples
 colorMatch <- function(rasList) {
   dfCatTrajectory <- rasList[1]
   rasterTrajectories <-
