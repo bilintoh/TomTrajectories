@@ -1,0 +1,12 @@
+exportPattern("^[[:alpha:]]+")
+import(ggplot2)
+import(rgdal)
+
+importFrom(graphics,plot)
+importFrom(raster,extent)
+importFrom(raster,raster)
+importFrom(raster,res)
+importFrom(reshape2,melt)
+importFrom(stats,na.omit)
+importFrom(utils,write.table)
+importFrom(raster,levels)
